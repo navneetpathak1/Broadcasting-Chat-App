@@ -2,7 +2,9 @@
 
 This is a simple **real-time chat application** built using **React (frontend)** and **WebSocket (backend)**.  
 Users can join a **room**, and any message sent by one user is **broadcasted to all members present in the same room**.
-
+---
+Live : **https://broadcasting-chat-app.netlify.app/**
+---
 ---
 
 ## 🚀 Features
