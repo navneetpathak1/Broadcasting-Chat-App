@@ -6,7 +6,8 @@ function App() {
   const wsRef = useRef(null);
 
   useEffect(() => {
-    const ws = new WebSocket("ws://localhost:8080");
+    const ws = new WebSocket("wss://broadcasting-chat-app.onrender.com");
+
 
     ws.onopen = () => {
       ws.send(JSON.stringify({
